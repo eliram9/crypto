@@ -1,0 +1,30 @@
+.jumbotron{
+	background-color: #84E1FF;
+}
+
+h1{
+	color:red;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+#ripple {
+	width: 9%;
+	height: 9%;
+}
+
+ #stellar {
+ 	width: 10%;
+	height: 14%;
+}
+
+ #etherum{
+	width: 5%;
+	height: 3%;
+}
+
+ #neo{
+	width: 8%;
+	height: 8%;
+	margin-left: 1%;
+}
