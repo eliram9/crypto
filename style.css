@@ -2,10 +2,10 @@
 	background-color: #84E1FF;
 }
 
-h1{
-	color:red;
+h1 {
 	font-family: 'Poiret One', cursive;
 	text-align: center;
+	font-weight: bold;
 }
 
 #ripple {
