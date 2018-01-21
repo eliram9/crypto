@@ -28,3 +28,30 @@ h1 {
 	height: 8%;
 	margin-left: 2%;
 }
+
+.thumbnail {
+	background-color: #E8EFF1;
+	border-color: #868686;
+}
+
+h3 {
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+}
+
+.footer {
+    font-family: 'Josefin Slab', serif;
+    color: black; 
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #84E1FF;
+    text-align: center;
+}
