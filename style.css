@@ -32,6 +32,13 @@ h1 {
 .thumbnail {
 	background-color: #E8EFF1;
 	border-color: #868686;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.thumbnail:hover {
+	background-color: #D1D4D6;
+	border-color: #FFBD52;
+	font-size: 35px;
 }
 
 h3 {
