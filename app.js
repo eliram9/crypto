@@ -23,5 +23,11 @@ $(function() {
 		$( "#XLM" ).text("$" + data.USD );
 	});
 
-	
+	//Neo
+	var urlNEO = 'https://min-api.cryptocompare.com/data/price?fsym=NEO&tsyms=USD';
+
+	$.get( urlNEO, function( data ) {
+		console.log(data);
+		$( "#NEO" ).text("$" + data.USD );
+	});	
 }); //end self-invoking func
