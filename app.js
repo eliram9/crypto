@@ -30,4 +30,12 @@ $(function() {
 		console.log(data);
 		$( "#NEO" ).text("$" + data.USD );
 	});	
+	// Bitcoin
+	// var urlBTC = 'https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD';
+
+	// $.get( urlBTC, function( data ) {
+	// 	console.log(data);
+	// 	$( "#BTC" ).text("$" + data.USD );
+	// });	
+
 }); //end self-invoking func
