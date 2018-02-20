@@ -24,10 +24,10 @@ $(function() {
 	});
 
 	//Neo
-	var urlNEO = 'https://min-api.cryptocompare.com/data/price?fsym=NEO&tsyms=USD';
+	var urlBTC = 'https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD';
 
-	$.get( urlNEO, function( data ) {
+	$.get( urlBTC, function( data ) {
 		console.log(data);
-		$( "#NEO" ).text("$" + data.USD );
+		$( "#BTC" ).text("$" + data.USD );
 	});	
 }); //end self-invoking func
