@@ -3,18 +3,20 @@ body{
 }
 
 .jumbotron {
-  background: url(http://prod-upp-image-read.ft.com/5e92a1ce-496c-11e7-a3f4-c742b9791d43) no-repeat center;
+  background-image: url("../assets/images/back1.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: 1.5%;
+  font-size: 14px;
 }
 
 .jumbotron h1 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Comfortaa', cursive;
 	text-align: center;
-	font-weight: bold;
 	color: white;
 	text-shadow: 3px 3px #000;
 }
@@ -59,8 +61,8 @@ p:hover{
 .thumbnail {
 	background-color: #E8EFF1;
 	border-color: #868686;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 4%;
+	margin-right: 4%;
 	margin-bottom: 4%;
 }
 
