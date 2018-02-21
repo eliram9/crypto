@@ -11,7 +11,8 @@ body{
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: 1.5%;
-  font-size: 14px;
+  font-size: 1em;
+
 }
 
 .jumbotron h1 {
@@ -19,24 +20,25 @@ body{
 	text-align: center;
 	color: white;
 	text-shadow: 3px 3px #000;
+
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
     .jumbotron h1 {
-        font-size: 12em;
+        font-size: 4em;
     }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .jumbotron h1r {
-        font-size: 10em;
+        font-size: 6em;
     }
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
     .jumbotron h1 {
         font-size: 8em;
     }
