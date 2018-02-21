@@ -15,6 +15,14 @@ $(function() {
 		$( "#ETH" ).text("$" + data.USD );
 	});
 
+	//Ethereum Classic
+	var urlETC = 'https://min-api.cryptocompare.com/data/price?fsym=ETC&tsyms=USD';
+
+	$.get( urlETC, function( data ) {
+		console.log(data);
+		$( "#ETC" ).text("$" + data.USD );
+	});	
+
 	//Stellar
 	var urlXLM = 'https://min-api.cryptocompare.com/data/price?fsym=XLM&tsyms=USD';
 
@@ -23,19 +31,19 @@ $(function() {
 		$( "#XLM" ).text("$" + data.USD );
 	});
 
-	//Neo
-	var urlNEO = 'https://min-api.cryptocompare.com/data/price?fsym=NEO&tsyms=USD';
+	//Bitcoin
+	var urlBTC = 'https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD';
 
-	$.get( urlNEO, function( data ) {
+	$.get( urlBTC, function( data ) {
 		console.log(data);
-		$( "#NEO" ).text("$" + data.USD );
-	});	
-	// Bitcoin
-	// var urlBTC = 'https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD';
+		$( "#BTC" ).text("$" + data.USD );
+	});
 
-	// $.get( urlBTC, function( data ) {
-	// 	console.log(data);
-	// 	$( "#BTC" ).text("$" + data.USD );
-	// });	
+	//Bitcoin Classic 
+	var urlBCH = 'https://min-api.cryptocompare.com/data/price?fsym=BCH&tsyms=USD';
 
+	$.get( urlBCH, function( data ) {
+		console.log(data);
+		$( "#BCH" ).text("$" + data.USD );
+	});
 }); //end self-invoking func
