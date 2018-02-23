@@ -64,6 +64,10 @@ p:hover{
 .thumbnail {
 	background-color: #E8EFF1;
 	border-color: #868686;
+  border-radius: 25%;
+  border-width: 2px;
+	margin-left: 3%;
+	margin-right: 3%;
   padding: 0px;
 }
 
