@@ -63,18 +63,17 @@ p:hover{
 }
 
 .row {
-  margin-left: 1%
+  margin-right: 0%;
+  margin-left: 0%;
 }
 
 .thumbnail {
 	background-color: #E8EFF1;
 	border-color: black;
-  border-radius: 25%;
+  border-radius: 5%;
   border-width: 2px;
-	margin-left: 2%;
-	margin-right: 2%;
   padding: 0px;
-  width: 90%;
+  width: 100%;
 }
 
 .thumbnail:hover {
