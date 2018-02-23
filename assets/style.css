@@ -49,30 +49,32 @@ h3 {
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
 	font-weight: bold;
+  padding: 0px;
 }
 
 p {
 	font-size: 25px;
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
-	font-weight: bold;
+	
 }
 p:hover{
 	font-size: 45px;
 }
 
 .row {
-  margin-left: 3%
+  margin-left: 1%
 }
+
 .thumbnail {
 	background-color: #E8EFF1;
-	border-color: #868686;
+	border-color: black;
   border-radius: 25%;
   border-width: 2px;
 	margin-left: 2%;
 	margin-right: 2%;
   padding: 0px;
-  width: 80%;
+  width: 90%;
 }
 
 .thumbnail:hover {
