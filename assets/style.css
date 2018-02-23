@@ -64,9 +64,7 @@ p:hover{
 .thumbnail {
 	background-color: #E8EFF1;
 	border-color: #868686;
-	margin-left: 1%;
-	margin-right: 1%;
-	margin-bottom: 4%;
+  padding: 0px;
 }
 
 .thumbnail:hover {
