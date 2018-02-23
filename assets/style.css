@@ -46,14 +46,14 @@ body {
 }
 
 h3 {
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Quicksand', sans-serif;
 	text-align: center;
 	font-weight: bold;
 }
 
 p {
 	font-size: 25px;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Quicksand', sans-serif;
 	text-align: center;
 	font-weight: bold;
 }
@@ -61,14 +61,18 @@ p:hover{
 	font-size: 45px;
 }
 
+.row {
+  margin-left: 3%
+}
 .thumbnail {
 	background-color: #E8EFF1;
 	border-color: #868686;
   border-radius: 25%;
   border-width: 2px;
-	margin-left: 3%;
-	margin-right: 3%;
+	margin-left: 2%;
+	margin-right: 2%;
   padding: 0px;
+  width: 80%;
 }
 
 .thumbnail:hover {
@@ -78,7 +82,7 @@ p:hover{
 }
 
 .footer {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Quicksand', sans-serif;
     color: white; 
     font-size: 16px;
     position: fixed;
